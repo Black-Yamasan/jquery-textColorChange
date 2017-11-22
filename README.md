@@ -19,7 +19,7 @@
 // devideHeightは画面の高さを割る数
 // timeoutは実行までの待機時間
 // delayは一文字ずつ色を変更していく時間の間隔
-var $fadeIn = $('#js-fadeIn');
+var $el1 = $('#js-el1');
 var el1Options = {
   colorName: 'color-blue',
   devideHeight: 2,
