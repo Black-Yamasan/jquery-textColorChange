@@ -1,0 +1,32 @@
+<%_
+  var root = ''
+  var pageId = 'top'
+  var title = 'Demo page - textColorChange'
+  var description = 'プラグイン textColorChange のデモページです。'
+  var cssFile = []
+  var jsFile = ['demo']
+_%>
+<%_ include ../include/_header _%>
+      <section class="main">
+        <h1 class="mainTit">スクロールしたらテキストの色を順番に変えていく</h1>
+        <div class="mainCaption">
+          <h2 class="mainCaption_tit">仕様</h2>
+          <p class="mb10">画面スクロール後、テキストの色を順番に変えていきます。</p>
+        </div>
+        <section class="block">
+          <h3 class="blockTit">一部のテキストの色を青に変更</h3>
+          <p class="blockCaption">該当テキストの色を青に変える</p>
+          <div class="blockContent">
+            <p class="fs14">サンプルテキストです。<span id="js-el1">テキストの色を青に変更します。</span><br>サンプルテキストです。サンプルテキストです。</p>
+          </div>
+        </section>
+        <section class="block">
+          <h3 class="blockTit">背景が黒字のところに白い文字が浮かび上がるように見せる</h3>
+          <div class="blockContent">
+            <div class="bg-black blockContent_box">
+              <p class="fs14 color-black" id="js-el2">サンプルテキストです。背景が黒字のところに白い文字が浮かび上がるように見せています。実際は色を変えているだけです。ゲームアプリのような見せ方ができます。但し、間にhtmlタグは入れられません。</p>
+            </div>
+          </div>
+        </section>
+      </section>
+<%_ include ../include/_footer _%>

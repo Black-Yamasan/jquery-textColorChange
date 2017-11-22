@@ -1,0 +1,5 @@
+.DS_Store
+.Thumb_DB
+node_modules/
+dist/*
+yarn.lock

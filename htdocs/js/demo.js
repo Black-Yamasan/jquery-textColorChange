@@ -1,0 +1,1 @@
+$(function(){var e=$("#js-el1"),o=$("#js-el2");e.textColorChange({colorName:"color-blue",devideHeight:1.2,delay:200,timeout:800}),o.textColorChange({colorName:"color-white",devideHeight:1.3,delay:100,timeout:1200})});
