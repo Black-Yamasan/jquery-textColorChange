@@ -1,10 +1,6 @@
 # jquery-textColorChange
 
 
-## デモページ
-[Demo page - scrollAddClass](https://www.azure-eyed-cat.com/demo/2017/06/)
-
-
 ## 使い方
 - headerにjQuery本体とimagesLoadedのプラグイン、本プラグインを読み込み  
 - 本プラグインを呼び出す為のjsファイルを用意し、headerのプラグイン用のファイルの後若しくはページの下部にjsを設置
